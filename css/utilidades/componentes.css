@@ -18,6 +18,8 @@
   text-transform: uppercase;
   font: 600 1.125rem/1.35 'Poppins', sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
@@ -81,6 +83,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--cor-11);
+}
+
+.titulo {
+  background: url(../../img/dec/top-right.svg) no-repeat top right 20px;
 }
 
 .titulo p {
